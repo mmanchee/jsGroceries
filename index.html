@@ -13,27 +13,18 @@
   <div class="container">
     <h1>Grocery List</h1>
     <h2>Enter all you need at the store and get an alphabetized list back.</h2>
-    <form id="grocery-list">
+    <form class="grocery-list">
       <div class="from-group list">
         <input id="item1" class="form-control" type="text">
-        <input id="item2" class="form-control" type="text">
-        <input id="item3" class="form-control" type="text">
-        <input id="item4" class="form-control" type="text">
-        <input id="item5" class="form-control" type="text">
-        <input id="item6" class="form-control" type="text">
-        <input id="item7" class="form-control" type="text">
-        <input id="item8" class="form-control" type="text">
-        <input id="item9" class="form-control" type="text">
-        <input id="item10" class="form-control" type="text">
       </div>
-      <button type="submit" class="btn bg-info">Submit List</button> 
+      <button type="submit" id="add-line" class="btn bg-warning">Add an item box</button>
+      <button type="submit" id="submit" class="btn bg-info">Submit List</button> 
     </form>
-    <form id="add-line">
-      <button type="submit" class="btn bg-warning">Add an item box</button>
-    </form>
-  </div>
-  <ul id="itemOutput">
+    <div id="list">
+      <ul id="itemOutput">
 
-  </ul>
+      </ul>
+    </div>
+  </div>
 </body>
 </html>
