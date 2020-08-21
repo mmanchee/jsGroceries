@@ -2,7 +2,7 @@
 
 #### _Sorting Excersise from Epicodus, August 2020_
 
-#### By _**Mike Manchee**_
+#### By _**Mike Manchee and Grant Eadie**_
 
 ## Description
 
@@ -27,5 +27,5 @@ User inputs all the groceries that they would like to get and this list alphabet
 
 ### License
 
-Copyright (c) 2020 **_MIke Manchee_**
+Copyright (c) 2020 **_MIke Manchee and Grant Eadie_**
 Licenced under MIT
